@@ -9,6 +9,7 @@ import { Button, buttonVariants } from "./ui/button";
 import { UserButton } from "@clerk/nextjs";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Menu } from "lucide-react";
+import { ThemeSwitcherBtn } from "@/components/ThemeSwitcherBtn";
 
 function Navbar() {
   return (
@@ -55,6 +56,7 @@ const MobileNavbar = () => {
           <LogoMobile />
         </div>
         <div className="flex items-center gap-2">
+          <ThemeSwitcherBtn />
           <UserButton afterSignOutUrl="/sign-in" />
         </div>
       </nav>
@@ -79,6 +81,7 @@ const DesktopNavbar = () => {
           </div>
         </div>
         <div className="flex items-center gap-2">
+          <ThemeSwitcherBtn />
           <UserButton afterSignOutUrl="/sign-in" />
         </div>
       </nav>
