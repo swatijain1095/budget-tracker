@@ -9,7 +9,6 @@ CREATE TABLE "Category" (
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "name" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
-    "icon" TEXT NOT NULL,
     "type" TEXT NOT NULL DEFAULT 'income'
 );
 
@@ -24,7 +23,6 @@ CREATE TABLE "Transaction" (
     "userId" TEXT NOT NULL,
     "type" TEXT NOT NULL DEFAULT 'income',
     "category" TEXT NOT NULL,
-    "categoryIcon" TEXT NOT NULL
 );
 
 -- CreateTable
