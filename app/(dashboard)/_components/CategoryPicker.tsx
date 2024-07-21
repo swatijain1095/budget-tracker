@@ -40,9 +40,7 @@ const CategoryPicker = ({ type, onChange }: Props) => {
   const categoriesQuery = useQuery({
     queryKey: ["categories", type],
     queryFn: () =>
-      fetch(`/api/user-settings/categories?type=${type}`).then((res) =>
-        res.json()
-      ),
+      fetch(`/api/categories?type=${type}`).then((res) => res.json()),
   });
 
   const selectedCategory = categoriesQuery.data?.find(
