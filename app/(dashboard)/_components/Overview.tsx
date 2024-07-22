@@ -3,7 +3,7 @@
 import { UserSettings } from "@prisma/client";
 import { differenceInDays, startOfMonth } from "date-fns";
 import React, { useState } from "react";
-import { DateRangePicker } from "./ui/date-range-picker";
+import { DateRangePicker } from "../../../components/ui/date-range-picker";
 import { MAX_DATE_RANGE_DAYS } from "@/lib/constants";
 import { toast } from "sonner";
 import StatsCards from "./StatsCards";

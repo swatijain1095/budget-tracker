@@ -5,10 +5,10 @@ import { DateToUTCDate, GetFormatterForCurrency } from "@/lib/helpers";
 import { UserSettings } from "@prisma/client";
 import { useQuery } from "@tanstack/react-query";
 import React, { ReactNode, useCallback, useMemo } from "react";
-import SkeletonWrapper from "./SkeletonWrapper";
+import SkeletonWrapper from "@/components/SkeletonWrapper";
 import { TrendingDown, TrendingUp, Wallet, Wallet2Icon } from "lucide-react";
-import { Card } from "./ui/card";
 import CountUp from "react-countup";
+import { Card } from "@/components/ui/card";
 
 interface Props {
   from: Date;
