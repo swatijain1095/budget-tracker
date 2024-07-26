@@ -1,3 +1,35 @@
+
+This is a responsive budget tracker application that can be used to track ones incomes and expenses in different currencies.
+
+## Live Demo
+
+https://budget-tracker-ten-omega.vercel.app/
+
+## Preview
+
+![Img1](https://github.com/user-attachments/assets/d3181ec9-4cca-4ae6-811b-8006fff3cff3)
+![Img3](https://github.com/user-attachments/assets/590c0e82-bc5d-4a6a-afa4-8149a7d7d51a)
+![Img4](https://github.com/user-attachments/assets/b3f0be24-3e3e-4dbd-b295-590d46fcf391)
+
+## 🛠️ Stack 
+- Nextjs 14: API routes and ServerActions
+- Auth with Clerk
+- Typescript
+- Tailwindcss / Shadcn UI
+- SQLite / Vercel PostgreSQL
+- Prisma as ORM
+- React-query
+- Recharts
+
+## 📗 Features
+- Transaction Management
+- Category Statistics
+- Historical Data Aggregates
+- Stunning Charts
+- Icon Selector for Categories
+
+  # 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
